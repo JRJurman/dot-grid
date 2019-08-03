@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dot with default props should match snapshot 1`] = `
+"<div style=\\"
+    margin: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    background: grey;
+    border-radius: 100%;
+  \\" class=\\"Dot\\"></div>"
+`;
