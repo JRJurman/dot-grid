@@ -1,5 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Dots with configured number of dots should match snapshot 1`] = `
+"<div class=\\"Dots\\"><div style=\\"
+    margin: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    background: grey;
+    border-radius: 100%;
+  \\" class=\\"Dot\\"></div><div style=\\"
+    margin: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    background: grey;
+    border-radius: 100%;
+  \\" class=\\"Dot\\"></div><div style=\\"
+    margin: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    background: grey;
+    border-radius: 100%;
+  \\" class=\\"Dot\\"></div><div style=\\"
+    margin: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    background: grey;
+    border-radius: 100%;
+  \\" class=\\"Dot\\"></div></div>"
+`;
+
 exports[`Dots with default props should match snapshot 1`] = `
 "<div class=\\"Dots\\"><div style=\\"
     margin: 1em;
