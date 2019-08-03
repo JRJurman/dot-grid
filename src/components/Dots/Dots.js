@@ -7,8 +7,8 @@ const html = registerHtml({
 })
 
 export default (props, children) => {
-  const { numberOfDots = 1000 } = useUrlParams();
-  const manyDots = Array(numberOfDots).fill().map(() => Dot())
+  const { numberOfDots = '1000' } = useUrlParams();
+  const manyDots = [...Array(parseInt(numberOfDots))].map(() => Dot())
   return html`
     <div class="Dots">
       ${manyDots}
